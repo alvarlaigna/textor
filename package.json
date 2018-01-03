@@ -1,14 +1,10 @@
 {
-  "private": true,
-  "scripts": {
-    "start": "npm install && gulp",
-    "build": "npm install && gulp build"
-  },
+  "name": "Netron",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": "lutzroeder/Textor",
   "devDependencies": {
     "typescript": "latest",
-    "gulp": "latest",
-    "gulp-typescript": "latest",
-    "gulp-uglify": "latest",
-    "gulp-open": "latest"
+    "uglify-js": "latest"
   }
 }
